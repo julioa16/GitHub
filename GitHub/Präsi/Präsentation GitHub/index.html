@@ -1,0 +1,173 @@
+<!doctype html>
+<html> 
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides" style="color:#424242">
+				<section>
+					<h1>GitHub</h1>
+					<hr>
+					<h6>Service für Git-Repositories</h6>
+				</section>
+
+				<section>
+					<section>
+						<div id="wrapper">
+							<h2>Inhalt Tutorial</h2> <br>
+						<div id ="erste_spalte_g">
+							<ul>
+								<li>Was ist GitHub?</li>
+								<li>Dessen Verwendung?</li>
+								<li>Vor- und Nachteile</li>
+								<li>Ähnliches?</li>
+							</ul>
+							</div>
+							<div id="zweite_spalte_g">
+							<ul>
+							<li>Start Live-Demo:
+								<ul>
+								<li>Einführung</li>
+								<li>Funktionen</li>
+								<li>Aufgaben</li>
+								</ul>
+							</li>
+							</ul>
+						</div> </div>
+					</section>
+
+					<section>
+						<div id="wrapper">
+							<h2>Inhalt Präsentation</h2> <br>
+						<div id="erste_spalte_g">
+							<ul>
+								<li>Bereits Genanntes</li>
+								<li>Bergrifferklärungen</li>
+							</ul>
+						</div> </div>
+					</section>	
+				</section>
+
+				<section>
+					<h2>Was ist GitHub?</h2>
+					<section>
+					<div id="wrapper">
+						<div id="erste_spalte">
+							<ul>
+								<li>Git <br> = Versionsverwaltung</li>
+							</ul>
+							<br> <br> <br>
+							<img src="pics/Git_Logo.png" height="150" width="400">
+							</div>
+
+							<div id="zweite_spalte">
+							<ul>
+							<li>GitHub <br> = Service für Git-Projekte
+									</br> = Plattform für Zusammenarbeit</li>
+							</ul>
+
+							<br> <br>
+							<img src="pics/GitHub_Logo.jpg" height="200" width="200">
+							<img src="pics/GitHub_Logo_Neu.png" height="200" width="400" >
+						</div>
+					</div>
+					</section>
+				</section>
+
+				<section>
+					<h2>Verwendung</h2>
+					<section>
+						Mangement
+						<img src="pics/Project.png">
+					</section>
+
+					<section>
+						Open-Source-Projekte
+						<img src="pics/Repositories.png" height="350">
+					</section>
+					<section>
+							Git <br> 
+							<img src="pics/Git_Tortoise_2.png" height="300"> 
+							<img src="pics/Git_Tortoise_1.png"> <br>
+					</section>
+				</section>	
+
+				<section>
+					<seciton>
+					<div id="wrapper">
+						<div id="erste_spalte_g">
+							<table>
+								<tr><th>Vorteile</th></tr>
+								<tr><td> <font color="green">+</font> kostenlos</td></tr>
+								<tr><td> <font color="green">+</font> online</td></tr>
+								<tr><td> <font color="green">+</font> planen</td></tr>
+								<tr><td> <font color="green">+</font> einfache Bedienung</td></tr>
+							</table>
+						</div> 
+						<div id="zweite_spalte_g">
+						</div> 
+							<table>
+								<tr><th>Nachteile</th></tr>
+								<tr><td> <font color="red">-</font> → öffentlich</td></tr>
+								<tr><td> <font color="red">-</font> Privat: kostet</td></tr>
+							</table>
+					</div>
+					</seciton>
+				</section>	
+
+				<section>
+					<h2>Ähnliches</h2>
+					<ul>
+						<li>GitLab</li>
+						<li>Bitbucket</li>
+						<li>und Weitere</li>
+					</ul>	
+				</section>
+
+				<section>
+					<h2>Branches</h2>
+					<img src="pics/Network.png">	
+				</section>
+
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
