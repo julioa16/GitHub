@@ -10,8 +10,13 @@ namespace Taschenrechner
     {
         static void Main(string[] args)
         {
-            string wert1, wert2, wert;
-            double zahl1, zahl2;
+            string wert1;
+            string wert2;
+            string wert;
+            string ergebnis = "";
+            double zahl1;
+            double zahl2;
+            do_something dos = new do_something();
 
             Console.WriteLine("Zahl1");
             wert1 = Console.ReadLine();
@@ -27,14 +32,23 @@ namespace Taschenrechner
 
             Console.WriteLine("Ergebnis");
             if (wert == "+")
-                Console.WriteLine(zahl1 + zahl2);
+            {
+                ergebnis = dos.addition(zahl1, zahl2);
+            }
             else if (wert == "-")
-                Console.WriteLine(zahl1 - zahl2);
+            {
+                // ergebnis = dos.subtraktion(zahl1, zahl2);
+            }
             else if (wert == "*")
-                Console.WriteLine(zahl1 * zahl2);
+            {
+                ergebnis = dos.multiplikation(zahl1, zahl2);
+            }
             else if (wert == "/")
-                Console.WriteLine(zahl1 / zahl2);
+            {
+                //ergebnis = dos.division(zahl1, zahl2);
+            }
 
+            Console.WriteLine(ergebnis);
             Console.ReadLine();
         }
     }
