@@ -30,12 +30,12 @@ namespace Taschenrechner
             }
             else if (Operator == "-")
             {
-                Result = (Taschenrechner.subtraction()).ToString();
+                // ToDo: Subtraction
+                Result = "0";
             }
             else if (Operator == "*")
             {
-                // ToDo: Multiplication
-                Result = "0";
+                Result = (Taschenrechner.multiplication()).ToString();
             }
             else if (Operator == "/")
             {

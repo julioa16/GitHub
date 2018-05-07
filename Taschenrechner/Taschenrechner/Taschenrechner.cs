@@ -28,5 +28,16 @@ namespace Taschenrechner
             //return (Number_1 - Number_2);
             return 0;
         }
+
+        public int multiplication()
+        {
+            return (Number_1 * Number_2);
+        }
+
+        public int division()
+        {
+            //return (Number_1 - Number_2);
+            return 0;
+        }
     }
 }
