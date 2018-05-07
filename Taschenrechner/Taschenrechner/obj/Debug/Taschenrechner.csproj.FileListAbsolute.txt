@@ -1,0 +1,9 @@
+C:\Users\Julia\Documents\MEINE ORDNER\Berufsschule\11FI1\final\Taschenrechner\Taschenrechner\bin\Debug\Taschenrechner.exe.config
+C:\Users\Julia\Documents\MEINE ORDNER\Berufsschule\11FI1\final\Taschenrechner\Taschenrechner\bin\Debug\Taschenrechner.exe
+C:\Users\Julia\Documents\MEINE ORDNER\Berufsschule\11FI1\final\Taschenrechner\Taschenrechner\bin\Debug\Taschenrechner.pdb
+C:\Users\Julia\Documents\MEINE ORDNER\Berufsschule\11FI1\final\Taschenrechner\Taschenrechner\obj\Debug\Taschenrechner.csprojResolveAssemblyReference.cache
+C:\Users\Julia\Documents\MEINE ORDNER\Berufsschule\11FI1\final\Taschenrechner\Taschenrechner\obj\Debug\Taschenrechner.exe
+C:\Users\Julia\Documents\MEINE ORDNER\Berufsschule\11FI1\final\Taschenrechner\Taschenrechner\obj\Debug\Taschenrechner.pdb
+C:\Users\Julia\Documents\MEINE ORDNER\Berufsschule\11FI1\Taschenrechner\Taschenrechner\bin\Debug\Taschenrechner.exe.config
+C:\Users\Julia\Documents\MEINE ORDNER\Berufsschule\11FI1\Taschenrechner\Taschenrechner\obj\Debug\Taschenrechner.exe
+C:\Users\Julia\Documents\MEINE ORDNER\Berufsschule\11FI1\Taschenrechner\Taschenrechner\obj\Debug\Taschenrechner.pdb
