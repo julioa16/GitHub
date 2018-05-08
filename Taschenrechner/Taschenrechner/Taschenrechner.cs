@@ -25,8 +25,7 @@ namespace Taschenrechner
 
         public int subtraction()
         {
-            //return (Number_1 - Number_2);
-            return 0;
+            return (Number_1 - Number_2);
         }
 
         public int multiplication()
@@ -36,8 +35,7 @@ namespace Taschenrechner
 
         public int division()
         {
-            //return (Number_1 - Number_2);
-            return 0;
+            return (Number_1 / Number_2);
         }
     }
 }
